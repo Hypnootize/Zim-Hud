@@ -182,7 +182,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,14 +190,13 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"0"
+			"xpos"			"65"
 			"ypos"			"0"
 			"wide"			"110"
 			"zpos"			"100"
@@ -223,11 +221,11 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"0"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
 			"ypos"			"20"
 			"wide"			"110"
 			"zpos"			"100"
@@ -237,7 +235,7 @@
 			"font"			"MenuFontSmall"
 			"fgcolor_override"	"Menu Text Color"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -249,13 +247,61 @@
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"north-west"
 			}
+
+			"fonts"
+			{
+				"0"		"MenuFontSmall"
+				"1"		"MenuFontSmall"
+				"2"		"MenuFontSmall"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"20"
+			"wide"			"110"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"MenuFontSmall"
+			"fgcolor_override"	"Menu Text Color"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc1%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"			"f0"
+				"font"			"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"MenuFontSmall"
+				"1"		"MenuFontSmall"
+				"2"		"MenuFontSmall"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"Menu Text Color"
+			}
 		}
 
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
+			"xpos"			"65"
 			"ypos"			"0"
 			"wide"			"110"
 			"tall"			"f0"
