@@ -21,8 +21,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -45,8 +44,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -70,8 +68,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -90,8 +87,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -115,8 +111,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -135,8 +130,7 @@
 
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}		
 	}
 	"SuddenDeathLabel"
@@ -160,8 +154,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -180,8 +173,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupLabel"
@@ -205,8 +197,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
@@ -225,8 +216,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"ServerTimeLimitLabel"
@@ -247,5 +237,10 @@
 		"wrap"			"0"
 		"font"			"CapsFont10"
 		"fgcolor"		"White"
+		
+		if_match
+		{
+			
+		}
 	}	
 }
