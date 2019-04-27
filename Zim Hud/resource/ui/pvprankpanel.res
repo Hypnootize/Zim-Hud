@@ -198,7 +198,7 @@
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
 			"ypos"			"0"
-			"wide"			"110"
+			"wide"			"0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -227,16 +227,17 @@
 			"fieldName"		"DescLine1"
 			"xpos"			"65"
 			"ypos"			"20"
-			"wide"			"110"
+			"wide"			"120"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"MenuFontSmall"
 			"fgcolor_override"	"Menu Text Color"
-			"textAlignment"	"north-west"
+			"textAlignment"	"center"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
+			"AllCaps"	"1"
 
 			if_mini
 			{
@@ -246,13 +247,14 @@
 				"font"			"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"north-west"
+				"AllCaps"	"0"
 			}
 
 			"fonts"
 			{
-				"0"		"MenuFontSmall"
-				"1"		"MenuFontSmall"
-				"2"		"MenuFontSmall"
+				"0"		"HudFontMediumSmallBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
 			}
 		}
 
@@ -262,16 +264,17 @@
 			"fieldName"		"DescLine2"
 			"xpos"			"65"
 			"ypos"			"20"
-			"wide"			"110"
+			"wide"			"120"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"MenuFontSmall"
 			"fgcolor_override"	"Menu Text Color"
-			"textAlignment"	"north-west"
+			"textAlignment"	"center"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
+			"AllCaps"	"1"
 
 			if_mini
 			{
@@ -281,13 +284,14 @@
 				"font"			"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"north-west"
+				"AllCaps"	"0"
 			}
 
 			"fonts"
 			{
-				"0"		"MenuFontSmall"
-				"1"		"MenuFontSmall"
-				"2"		"MenuFontSmall"
+				"0"		"HudFontMediumSmallBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
 			}
 
 			"colors"
@@ -303,7 +307,7 @@
 			"fieldName"		"StatsContainer"
 			"xpos"			"65"
 			"ypos"			"0"
-			"wide"			"110"
+			"wide"			"120"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -388,7 +392,7 @@
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
@@ -396,6 +400,11 @@
 
 						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
+						
+						if_mini
+						{
+							"wide"			"f0"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -418,11 +427,16 @@
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
-						"wide"			"f0"
+						"wide"			"0"
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
+						
+						if_mini
+						{
+							"wide"			"f0"
+						}
 					}
 				}
 			}

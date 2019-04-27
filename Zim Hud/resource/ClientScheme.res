@@ -392,7 +392,7 @@ Scheme
 		"QualityColorNormal"					"178 178 178 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"112 85 15 255"
+		"QualityColorrarity3"					"204 204 250 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
@@ -405,7 +405,7 @@ Scheme
 		"QualityColorHaunted"					"56 243 171 255"
 		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
-		
+
 		"ItemRarityDefault"						"131 126 119 255"
 		"ItemRarityCommon"						"176 195 217 255"
 		"ItemRarityUncommon"					"94 152 217 255"
@@ -510,7 +510,7 @@ Scheme
 		CheckButton.BgColor				"White"
 		CheckButton.Border1  			"White" 		// the left checkbutton border
 		CheckButton.Border2  			"White"		// the right checkbutton border
-		CheckButton.Check				"White"		// color of the check itself
+		CheckButton.Check				"Black"		// color of the check itself
 		CheckButton.HighlightFgColor	"Menu Highlight Color"
 		
 		ComboBoxButton.ArrowColor		"Black"
@@ -5565,9 +5565,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/black_bg"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
+			"image"					"replay/panel_scalable_default"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}

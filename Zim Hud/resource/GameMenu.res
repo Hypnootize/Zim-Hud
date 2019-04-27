@@ -2,34 +2,47 @@
 {
 	"ServerBrowserButton"
 	{
-		"label" "Browse" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "0"
+		"label" 		"Browse" 
+		"command" 		"OpenServerBrowser"
+		"subimage"	 	""
 	} 
-	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "Create"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "0"
+		"label" 		"Create"
+		"command" 		"OpenCreateMultiplayerGameDialog"
+		"subimage"	 	""
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Store"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
+		"label" 		"Store"
+		"command" 		"engine open_store"
+		"subimage"	 	""
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"label" 		"Items"
+		"command" 		"engine open_charinfo"
+		"subimage"	 	""
 	}
 	"DemoUIButton"
 	{
-		"label" "DemoUI"
-		"command" "engine demoui"
+		"label" 		"DemoUI"
+		"command" 		"engine demoui"
+		"subimage"	 	""
+	}
+	"QuitButton"
+	{
+		"label" 		"Quit"
+		"command" 		"engine replay_confirmquit"
+		"OnlyAtMenu"	"1"
+		"subimage"	 	""
+	}
+	"DisconnectButton"
+	{
+		"label" 		"Leave"
+		"command" 		"engine disconnect"
+		"OnlyInGame"	"1"
+		"subimage"	 	""
 	}
 	"OptionsButton"
 	{
