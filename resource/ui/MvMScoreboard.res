@@ -1,5 +1,5 @@
 "Resource/UI/MvMScoreboard.res"
-{		
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
@@ -11,10 +11,10 @@
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"verbose"			"1"
 	}
-	
+
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -23,22 +23,22 @@
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
 		"xpos"			"290"
-		"ypos"			"377"
+		"ypos"			"375"
 		"wide"			"290"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"tanlight"
 	}
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"405"
-		"ypos"			"24"
+		"xpos"			"425"
+		"ypos"			"30"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		
+
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -48,11 +48,11 @@
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"fgcolor"		"0 0 0 0"
+			"wide"			"150"
+			"tall"			"10"
+			"fgcolor"		"tanlight"
 		}
-		
+
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
@@ -61,42 +61,42 @@
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"9"
 			"wide"			"150"
-			"tall"			"16"
-			"fgcolor"		"White"
+			"tall"			"10"
+			"fgcolor"		"tanlight"
 		}
 	}
-	
+
 	"PlayerListBackground"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"100"
+		"xpos"			"25"
 		"ypos"			"75"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/tournament_panel_brown"
-		
-		"scaleImage"		"1"
-		
+		"wide"			"550"
+		"tall"			"150"
+		"visible"		"1"
+		"enabled"		"1"
+		"drawcolor"		"Black"
+		"alpha"			"175"
+		"image"			"white"
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
-	
+
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"110"
+		"xpos"			"35"
 		"ypos"			"79"
-		"wide"			"540"
+		"wide"			"530"
 		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -106,7 +106,7 @@
 		"linespacing"	"22"
 		"textcolor"		"White"
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -116,7 +116,7 @@
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -124,21 +124,23 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"0"
-			"tall"			"0"
+			"wide"			"400"
+			"tall"			"135"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
+			"drawcolor"		"Black"
+			"alpha"			"175"
+			"image"			"white"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
-		
+
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -148,33 +150,35 @@
 			"textAlignment" "north-west"
 			"xpos"			"8"
 			"ypos"			"8"
-			"wide"			"0"
-			"tall"			"0"
-			"fgcolor"		"0 0 0 0"
+			"wide"			"100"
+			"tall"			"25"
+			"fgcolor"		"tanlight"
 		}
-		
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
 			"xpos"			"8"
 			"ypos"			"30"
+			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
 			"xpos"			"208"
 			"ypos"			"30"
+			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -186,7 +190,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -197,6 +201,20 @@
 			"tall"			"60"
 			"wide"			"200"
 			"visible"		"1"
+		}
+
+		"RespecStatusLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecStatusLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"%respecstatus%"
+			"textAlignment" "north-east"
+			"xpos"			"115"
+			"ypos"			"8"
+			"wide"			"275"
+			"tall"			"20"
+			"fgcolor"		"tanlight"
 		}
 	}
 }
